@@ -1,10 +1,7 @@
 package com.daji.service.impl;
 
-import com.daji.mapper.UpdatePlateMapper;
 import com.daji.mapper.UseInfoMapper;
-import com.daji.pojo.UpdatePlate;
 import com.daji.pojo.UseInfo;
-import com.daji.service.UpdatePlateService;
 import com.daji.service.UseInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

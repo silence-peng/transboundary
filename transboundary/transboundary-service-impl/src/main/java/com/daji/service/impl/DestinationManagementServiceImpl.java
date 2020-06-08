@@ -6,7 +6,6 @@ import com.daji.service.DestinationManagementService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.jws.Oneway;
 import java.util.List;
 
 @Service

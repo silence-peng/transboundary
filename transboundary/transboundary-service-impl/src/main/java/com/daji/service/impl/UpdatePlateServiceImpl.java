@@ -1,10 +1,7 @@
 package com.daji.service.impl;
 
-import com.daji.mapper.UjnauthorizedNetworkMapper;
 import com.daji.mapper.UpdatePlateMapper;
-import com.daji.pojo.UjnauthorizedNetwork;
 import com.daji.pojo.UpdatePlate;
-import com.daji.service.UjnauthorizedNetworkService;
 import com.daji.service.UpdatePlateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

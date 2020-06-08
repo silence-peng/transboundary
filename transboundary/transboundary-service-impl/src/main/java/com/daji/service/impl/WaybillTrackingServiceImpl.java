@@ -1,10 +1,7 @@
 package com.daji.service.impl;
 
-import com.daji.mapper.WaybillNumberMapper;
 import com.daji.mapper.WaybillTrackingMapper;
-import com.daji.pojo.WaybillNumber;
 import com.daji.pojo.WaybillTracking;
-import com.daji.service.WaybillNumberService;
 import com.daji.service.WaybillTrackingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

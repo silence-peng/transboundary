@@ -1,10 +1,7 @@
 package com.daji.service.impl;
 
-import com.daji.mapper.SingleRecordInfoMapper;
 import com.daji.mapper.SortingMapper;
-import com.daji.pojo.SingleRecordInfo;
 import com.daji.pojo.Sorting;
-import com.daji.service.SingleRecordInfoService;
 import com.daji.service.SortingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

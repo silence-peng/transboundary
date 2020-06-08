@@ -1,10 +1,7 @@
 package com.daji.service.impl;
 
-import com.daji.mapper.StatusAfterMapper;
 import com.daji.mapper.TrackingNetworkMapper;
-import com.daji.pojo.StatusAfter;
 import com.daji.pojo.TrackingNetwork;
-import com.daji.service.StatusAfterService;
 import com.daji.service.TrackingNetworkService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

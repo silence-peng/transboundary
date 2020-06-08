@@ -7,6 +7,7 @@ import lombok.experimental.Accessors;
 
 import javax.persistence.Id;
 import java.io.Serializable;
+import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -16,4 +17,5 @@ public class TrackingNetworkClassification implements Serializable {
     @Id
     private Integer id;
     private String typeName;
+    private List<TrackingNetwork> networkList;
 }

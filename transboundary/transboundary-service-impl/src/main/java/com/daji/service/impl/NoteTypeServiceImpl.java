@@ -6,7 +6,6 @@ import com.daji.service.NoteTypeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.nio.channels.NotYetBoundException;
 import java.util.List;
 
 @Service

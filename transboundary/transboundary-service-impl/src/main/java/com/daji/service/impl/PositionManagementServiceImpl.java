@@ -6,7 +6,6 @@ import com.daji.service.PositionManagementService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Date;
 import java.util.List;
 
 @Service
@@ -20,9 +19,6 @@ public class PositionManagementServiceImpl implements PositionManagementService 
 
     @Override
     public List<PositionManagement> getData(PositionManagement positionManagement) {
-        if (positionManagement.getPositionCoding()!=null&&positionManagement.getPositionCoding().equals("")){
-            positionManagement.setPositionCoding(null);
-        }
         return positionManagementMapper.select(positionManagement);
     }
 
@@ -33,13 +29,6 @@ public class PositionManagementServiceImpl implements PositionManagementService 
 
     @Override
     public Integer add(PositionManagement positionManagement) {
-        positionManagement.setCreateDate(new Date());
-        if (positionManagement.getIsStartUsing()==null){
-            positionManagement.setIsStartUsing(0);
-        }
-        if (positionManagementMapper.selectByPrimaryKey(positionManagement)!=null){
-            return 0;
-        }
         return positionManagementMapper.insert(positionManagement);
     }
 
@@ -50,7 +39,6 @@ public class PositionManagementServiceImpl implements PositionManagementService 
 
     @Override
     public Integer upd(PositionManagement positionManagement) {
-        positionManagement.setAlterDate(new Date());
-        return positionManagementMapper.updateByPrimaryKeySelective(positionManagement);
+        return positionManagementMapper.updateByPrimaryKey(positionManagement);
     }
 }

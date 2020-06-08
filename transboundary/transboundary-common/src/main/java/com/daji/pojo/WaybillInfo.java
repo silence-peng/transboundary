@@ -43,4 +43,6 @@ public class WaybillInfo implements Serializable {
     private Date cretedate;
     private Integer faraway;
     private String countriesCode;
+    private String destinationCode;
+    private String serviceType;
 }

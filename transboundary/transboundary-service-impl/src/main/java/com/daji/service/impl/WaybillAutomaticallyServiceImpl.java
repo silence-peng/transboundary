@@ -1,10 +1,7 @@
 package com.daji.service.impl;
 
-import com.daji.mapper.WaybillAllocationMapper;
 import com.daji.mapper.WaybillAutomaticallyMapper;
-import com.daji.pojo.WaybillAllocation;
 import com.daji.pojo.WaybillAutomatically;
-import com.daji.service.WaybillAllocationService;
 import com.daji.service.WaybillAutomaticallyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

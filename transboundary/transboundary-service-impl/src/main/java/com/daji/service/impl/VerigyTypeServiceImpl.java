@@ -1,10 +1,7 @@
 package com.daji.service.impl;
 
-import com.daji.mapper.UserMapper;
 import com.daji.mapper.VerigyTypeMapper;
-import com.daji.pojo.User;
 import com.daji.pojo.VerifyType;
-import com.daji.service.UserService;
 import com.daji.service.VerigyTypeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

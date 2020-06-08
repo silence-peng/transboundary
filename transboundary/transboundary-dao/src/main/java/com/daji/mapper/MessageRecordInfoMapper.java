@@ -1,7 +1,6 @@
 package com.daji.mapper;
 
 import com.daji.pojo.MessageRecordInfo;
-import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
 

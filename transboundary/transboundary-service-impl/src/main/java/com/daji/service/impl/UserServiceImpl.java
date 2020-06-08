@@ -1,10 +1,7 @@
 package com.daji.service.impl;
 
-import com.daji.mapper.UseInfoMapper;
 import com.daji.mapper.UserMapper;
-import com.daji.pojo.UseInfo;
 import com.daji.pojo.User;
-import com.daji.service.UseInfoService;
 import com.daji.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
