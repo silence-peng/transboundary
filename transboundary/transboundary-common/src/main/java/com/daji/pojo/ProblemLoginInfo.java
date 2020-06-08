@@ -1,0 +1,46 @@
+package com.daji.pojo;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
+import org.springframework.format.annotation.DateTimeFormat;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import java.io.Serializable;
+import java.util.Date;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+@Accessors(chain = true)//链式写法
+public class ProblemLoginInfo implements Serializable {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer issueId;
+    private String waybillNumber;
+    private Integer problemState;
+    private String processingNode;
+    private String description;
+    private String attachment;
+    private String conductor;
+    private Integer processLimited;
+    private String notifier;
+    private Integer closedQuestions;
+    private String closePerson;
+    @DateTimeFormat(pattern = "yyyy-MM-dd mm:hh:ss")
+    @JsonFormat(pattern = "yyyy-MM-dd mm:hh:ss")
+    private Date closeTime;
+    @DateTimeFormat(pattern = "yyyy-MM-dd mm:hh:ss")
+    @JsonFormat(pattern = "yyyy-MM-dd mm:hh:ss")
+    private Date loginTime;
+    @DateTimeFormat(pattern = "yyyy-MM-dd mm:hh:ss")
+    @JsonFormat(pattern = "yyyy-MM-dd mm:hh:ss")
+    private Date endTime;
+    private String loginSite;
+    private String registrant;
+    private Integer problemTypes;
+}
