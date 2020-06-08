@@ -1,10 +1,7 @@
 package com.daji.service.impl;
 
-import com.daji.mapper.VerigyTypeMapper;
 import com.daji.mapper.WaybillAllocationMapper;
-import com.daji.pojo.VerifyType;
 import com.daji.pojo.WaybillAllocation;
-import com.daji.service.VerigyTypeService;
 import com.daji.service.WaybillAllocationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

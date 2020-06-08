@@ -1,7 +1,6 @@
 package com.daji.mapper;
 
 import com.daji.pojo.DestinationType;
-import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
 

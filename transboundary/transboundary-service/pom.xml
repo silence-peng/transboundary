@@ -15,6 +15,10 @@
             <groupId>com.daji</groupId>
             <artifactId>transboundary-common</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.daji</groupId>
+            <artifactId>transboundary-dao</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

@@ -1,10 +1,7 @@
 package com.daji.service.impl;
 
-import com.daji.mapper.AccessoryInfoMapper;
 import com.daji.mapper.SinglelimportMapper;
-import com.daji.pojo.AccessoryInfo;
 import com.daji.pojo.SingleIimport;
-import com.daji.service.AccessoryInfoService;
 import com.daji.service.SinglelimportService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
