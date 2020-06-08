@@ -26,10 +26,10 @@ public class Bagging implements Serializable {
     private String strategyBame;
     private String sendASite;
     private Integer cargoType;
-    private Integer shipRoute;
+    private String shipRoute;
     private String remark;
-    private float wholeBagWeight;
-    private float singleBagWeight;
+    private String wholeBagWeight;
+    private String singleBagWeight;
     private Integer clearanceId;
     private String destination;
     private String desAirport;

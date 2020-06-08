@@ -19,7 +19,7 @@ public class Sorting implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private Integer isStartUsing;
-    private Integer customer;
+    private String customer;
     private String affiliatedBranches;
     private String shipRoute;
     private String desCoding;
@@ -27,7 +27,7 @@ public class Sorting implements Serializable {
     private String chineseDes;
     private String clearanceId;
     private String cargoTypeId;
-    private Integer sortingMouth;
-    private Integer sortingYards;
+    private String sortingMouth;
+    private String sortingYards;
 
 }

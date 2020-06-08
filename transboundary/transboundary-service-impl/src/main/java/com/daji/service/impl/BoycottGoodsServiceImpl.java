@@ -20,6 +20,18 @@ public class BoycottGoodsServiceImpl implements BoycottGoodsService {
 
     @Override
     public List<BoycottGoods> getData(BoycottGoods boycottGoods) {
+        if("".equals(boycottGoods.getAffiliatedBranches())){
+            boycottGoods.setAffiliatedBranches(null);
+        }
+        if("".equals(boycottGoods.getShiRoute())){
+            boycottGoods.setShiRoute(null);
+        }
+        if("".equals(boycottGoods.getChineseDes())){
+            boycottGoods.setChineseDes(null);
+        }
+        if("".equals(boycottGoods.getAssRoute())){
+            boycottGoods.setAssRoute(null);
+        }
         return boycottGoodsMapper.select(boycottGoods);
     }
 

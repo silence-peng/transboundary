@@ -22,12 +22,12 @@ public class BoycottGoods implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String affiliatedBranches;
-//    private String assRoute;
+    private String assRoute;
     private String desCoding;
     private String englishDes;
     private String chineseDes;
     private String receipt;
-    //    private String shiRoute;
+    private String shiRoute;
     @DateTimeFormat(pattern = "yyyy-MM-dd mm:hh:ss")
     @JsonFormat(pattern = "yyyy-MM-dd mm:hh:ss")
     private Date createDate;

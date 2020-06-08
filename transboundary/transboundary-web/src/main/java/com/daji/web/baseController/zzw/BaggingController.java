@@ -7,13 +7,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.http.HttpSession;
+import java.util.Date;
 import java.util.List;
 
 @RestController
-@RequestMapping("sorting")
-public class SortingController {
+@RequestMapping("bagging")
+public class BaggingController {
     @Autowired
-    private SortingService sortingService;
+    private BaggingService baggingService;
     @Autowired
     private AssignRouteService assignRouteService;
     @Autowired
@@ -21,19 +23,19 @@ public class SortingController {
     @Autowired
     private BranchBasicsInfoService branchBasicsInfoService;
     @Autowired
-    private CustomsClearanceInfoService customsClearanceInfoService;
+    private SharingModeService sharingModeService;
     @Autowired
-    private CustomerManagementService customerManagementService;
+    private CustomsClearanceInfoService customsClearanceInfoService;
 
     @RequestMapping("findCustomsClearance")
     public List<CustomsClearanceInfo> findCustoms(){
         List<CustomsClearanceInfo> customsClearanceInfoList = customsClearanceInfoService.getAll();
         return customsClearanceInfoList;
     }
-    @RequestMapping("findCustomer")
-    public List<CustomerManagement> findCustomerManagement(){
-        List<CustomerManagement> customerManagementList = customerManagementService.getAll();
-        return customerManagementList;
+    @RequestMapping("findSharingMode")
+    public List<SharingMode> findSharingMode(){
+        List<SharingMode> sharingModeList = sharingModeService.getAll();
+        return sharingModeList;
     }
     @RequestMapping("findAssRoute")
     public List<AssignRoute> findAssRoute(){
@@ -50,39 +52,45 @@ public class SortingController {
         List<BranchBasicsInfo> branchBasicsInfoList = branchBasicsInfoService.getAll();
         return branchBasicsInfoList;
     }
-    @RequestMapping("findSorting")
-    public ResultMap<List<Sorting>> findSorting(Sorting sorting){
-        List<Sorting> sortingList = sortingService.getData(sorting);
-        return new ResultMap<List<Sorting>>("", sortingList, 0,sortingList.size());
+    @RequestMapping("findBagging")
+    public ResultMap<List<Bagging>> findBagging(Bagging bagging){
+        List<Bagging> baggingList = baggingService.getData(bagging);
+        return new ResultMap<List<Bagging>>("",baggingList, 0,baggingList.size());
     }
-    @RequestMapping("findSortingOne")
-    public Sorting findSortingOne(Sorting sorting){
-        Sorting sorting1 = sortingService.getOne(sorting);
-        return sorting1;
+    @RequestMapping("findBaggingOne")
+    public Bagging findBaggingOne(Bagging bagging){
+        Bagging bagging1 = baggingService.getOne(bagging);
+        return bagging1;
     }
-    @RequestMapping("addSorting")
-    public boolean addSorting(Sorting sorting){
-        int result = sortingService.add(sorting);
+    @RequestMapping("addBagging")
+    public boolean addBagging(Bagging bagging, HttpSession session){
+        User admin = (User) session.getAttribute("admin");
+        bagging.setCreatePerson(admin.getUserName());
+        bagging.setCreateDate(new Date());
+        int result = baggingService.add(bagging);
         if (result>0){
             return true;
         }else {
             return false;
         }
     }
-    @RequestMapping("delSorting")
-    public boolean delSorting(Integer id){
-        Sorting sorting = new Sorting();
-        sorting.setId(id);
-        int result = sortingService.del(sorting);
+    @RequestMapping("delBagging")
+    public boolean delBagging(Integer id){
+        Bagging bagging = new Bagging();
+        bagging.setId(id);
+        int result = baggingService.del(bagging);
         if (result>0){
             return true;
         }else {
             return false;
         }
     }
-    @RequestMapping("updSorting")
-    public boolean updSorting(Sorting sorting){
-        int result= sortingService.upd(sorting);
+    @RequestMapping("updBagging")
+    public boolean updBagging(Bagging bagging, HttpSession session){
+        User admin = (User) session.getAttribute("admin");
+        bagging.setAlterDate(new Date());
+        bagging.setAlterPerson(admin.getUserName());
+        int result= baggingService.upd(bagging);
         if (result>0){
             return true;
         }else {

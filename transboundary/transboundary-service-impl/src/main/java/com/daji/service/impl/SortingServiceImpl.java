@@ -24,6 +24,21 @@ public class SortingServiceImpl implements SortingService {
 
     @Override
     public List<Sorting> getData(Sorting sorting) {
+        if("".equals(sorting.getCustomer())){
+            sorting.setCustomer(null);
+        }
+        if("".equals(sorting.getChineseDes())){
+            sorting.setChineseDes(null);
+        }
+        if("".equals(sorting.getShipRoute())){
+            sorting.setShipRoute(null);
+        }
+        if("".equals(sorting.getCargoTypeId())){
+            sorting.setCargoTypeId(null);
+        }
+        if("".equals(sorting.getIsStartUsing())){
+            sorting.setIsStartUsing(null);
+        }
         return sortingMapper.select(sorting);
     }
 
