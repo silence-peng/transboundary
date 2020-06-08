@@ -26,7 +26,14 @@ public class BaggingController {
     private SharingModeService sharingModeService;
     @Autowired
     private CustomsClearanceInfoService customsClearanceInfoService;
+    @Autowired
+    private CargoTypeInfoService cargoTypeInfoService;
 
+    @RequestMapping("findCargoType")
+    public List<CargoTypeInfo> findCargoType(){
+        List<CargoTypeInfo> cargoTypeInfoList = cargoTypeInfoService.getAll();
+        return cargoTypeInfoList;
+    }
     @RequestMapping("findCustomsClearance")
     public List<CustomsClearanceInfo> findCustoms(){
         List<CustomsClearanceInfo> customsClearanceInfoList = customsClearanceInfoService.getAll();

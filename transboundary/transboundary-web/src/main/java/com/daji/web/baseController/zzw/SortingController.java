@@ -24,8 +24,14 @@ public class SortingController {
     private CustomsClearanceInfoService customsClearanceInfoService;
     @Autowired
     private CustomerManagementService customerManagementService;
+    @Autowired
+    private CargoTypeInfoService cargoTypeInfoService;
 
-
+    @RequestMapping("findCargoType")
+    public List<CargoTypeInfo> findCargoType(){
+        List<CargoTypeInfo> cargoTypeInfoList = cargoTypeInfoService.getAll();
+        return cargoTypeInfoList;
+    }
     @RequestMapping("findCustomsClearance")
     public List<CustomsClearanceInfo> findCustoms(){
         List<CustomsClearanceInfo> customsClearanceInfoList = customsClearanceInfoService.getAll();
