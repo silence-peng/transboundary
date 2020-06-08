@@ -25,6 +25,7 @@ public class SortingController {
     @Autowired
     private CustomerManagementService customerManagementService;
 
+
     @RequestMapping("findCustomsClearance")
     public List<CustomsClearanceInfo> findCustoms(){
         List<CustomsClearanceInfo> customsClearanceInfoList = customsClearanceInfoService.getAll();
