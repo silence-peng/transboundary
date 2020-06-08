@@ -3,7 +3,6 @@ package com.daji.service.impl;
 import com.daji.mapper.TwoSidesInfoMapper;
 import com.daji.pojo.TwoSidesInfo;
 import com.daji.service.TwoSidesInfoService;
-import org.apache.ibatis.annotations.Mapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

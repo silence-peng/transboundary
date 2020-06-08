@@ -3,7 +3,6 @@ package com.daji.service.impl;
 import com.daji.mapper.AgencyContactInfoMapper;
 import com.daji.pojo.AgencyContactInfo;
 import com.daji.service.AgencyContactInfoService;
-import org.apache.ibatis.annotations.Mapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

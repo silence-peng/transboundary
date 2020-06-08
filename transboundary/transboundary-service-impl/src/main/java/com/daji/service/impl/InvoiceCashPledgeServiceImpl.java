@@ -5,7 +5,6 @@ import com.daji.pojo.InvoiceCashPledge;
 import com.daji.service.InvoiceCashPledgeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import tk.mybatis.mapper.common.base.update.UpdateByPrimaryKeyMapper;
 
 import java.util.List;
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.daji.mapper.SelectOrderMapper">
+    <select id="selectAll" resultType="SelectOrder">
+          SELECT * FROM
+    (SELECT w.`waybill_number` AS waybillNumber,w.`participation_number` AS participationNumber ,w.`tracking_number` AS trackingNumber,
+    w.`send_date` AS sendDate ,b.`branch_name` AS branchName ,c.`code` AS clientCode,c.name AS clientName ,bu.business_name AS serviceType,
+    a.id AS assignCode ,a.name AS assignName,d.code AS destCode,d.country_code AS destName ,d.english_name AS destEnglishName ,o.state AS orderState ,s.name AS shihpName
+    FROM waybill_info w,branch_basics_info b,customer_management c,assign_route a,destination_management d,
+    shipment_route s,order_state_info o,business_type bu
+    WHERE w.`site_id`=b.`branch_coding` AND c.code=w.`client_id` AND a.id=w.`course_race` AND d.`code`=w.`bourn`
+    AND s.`id`=w.`shipment_race` AND o.id=w.`order_status` AND bu.id=w.`service_type`) w,
+    (SELECT c.waybill_number AS waybill_number, cu.customs_way AS customsWay,ca.cargo_type AS cargoType,p.packaging_name AS packagingName,
+    c.`number_cases` AS numberCases ,c.`true_weight` AS trueWeight ,c.`weight` AS weight ,c.`charge_weight` AS chargeWeight
+    ,c.`chinese_name` AS chineseName ,c.`english_name` AS englishName ,c.`example_weight` AS exampleWeight
+    FROM cargo_info c ,customs_clearance_info cu,cargo_type_info ca,packaging_type p
+    WHERE c.`customs_way`=cu.id AND c.`cargo_type`=ca.id AND c.`packaging_type`=p.id) c,
+    (SELECT pa.pay_type AS payType,p.waybill_number AS waybill_number,p.tax_payment AS taxPayment,p.agency_payment AS agencyPayment,p.agency_currency AS agencyCurrency FROM pay_info p ,payment_method_info pa WHERE p.payment_method = pa.id) p
+    WHERE c.`waybill_number`=w.`waybillNumber` AND w.`waybillNumber`=p.waybill_number
+
+    </select>
+
+</mapper>

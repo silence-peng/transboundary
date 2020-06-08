@@ -1,10 +1,7 @@
 package com.daji.service.impl;
 
-import com.daji.mapper.TrajectoryMatchingMapper;
 import com.daji.mapper.UjnauthorizedNetworkMapper;
-import com.daji.pojo.TrajectoryMatching;
 import com.daji.pojo.UjnauthorizedNetwork;
-import com.daji.service.TrajectoryMatchingService;
 import com.daji.service.UjnauthorizedNetworkService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

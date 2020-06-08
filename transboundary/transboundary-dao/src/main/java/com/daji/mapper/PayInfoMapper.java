@@ -1,7 +1,6 @@
 package com.daji.mapper;
 
 import com.daji.pojo.PayInfo;
-import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
 @Repository("payInfoMapper")

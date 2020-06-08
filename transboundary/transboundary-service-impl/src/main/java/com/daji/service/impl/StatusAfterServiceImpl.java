@@ -1,10 +1,7 @@
 package com.daji.service.impl;
 
-import com.daji.mapper.SortingMapper;
 import com.daji.mapper.StatusAfterMapper;
-import com.daji.pojo.Sorting;
 import com.daji.pojo.StatusAfter;
-import com.daji.service.SortingService;
 import com.daji.service.StatusAfterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

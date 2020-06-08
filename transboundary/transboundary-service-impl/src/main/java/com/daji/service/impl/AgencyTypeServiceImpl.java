@@ -1,6 +1,5 @@
 package com.daji.service.impl;
 
-import com.daji.mapper.AgencyBasicInfoMapper;
 import com.daji.mapper.AgencyTypeMapper;
 import com.daji.pojo.AgencyType;
 import com.daji.service.AgencyTypeService;
