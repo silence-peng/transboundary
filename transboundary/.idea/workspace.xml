@@ -2,50 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4469130d-8d45-4987-8717-830a6ffcd6b3" name="Default Changelist" comment="修改跨域解决类">
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-05.20.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.10.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.11.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.12.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.13.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.14.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.15.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.16.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.17.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.18.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.19.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.2.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.20.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.21.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.22.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.23.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.24.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.25.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.26.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.27.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.28.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.29.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.3.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.4.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.5.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.6.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.7.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.8.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-07.9.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/demo.2020-06-08.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transboundary-service-impl/src/main/java/com/daji/service/impl/OrderExportServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transboundary-web/src/main/java/com/daji/web/baseController/SysController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transboundary-web/src/main/java/com/daji/web/baseController/py/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/demo.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/demo.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/interceptor/TxAdviceInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/interceptor/TxAdviceInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/util/XslxUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/util/XslxUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-common/target/classes/com/daji/pojo/BoycottGoods.class" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-common/target/classes/com/daji/pojo/BoycottGoods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-common/target/classes/com/daji/pojo/TrackingNetwork.class" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-common/target/classes/com/daji/pojo/TrackingNetwork.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-common/target/classes/com/daji/util/XslxUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-common/target/classes/com/daji/util/XslxUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-web/src/main/java/com/daji/TransboundaryWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-web/src/main/java/com/daji/TransboundaryWebApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/transboundary-web/src/main/java/com/daji/web/baseController/py/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-web/src/main/java/com/daji/web/baseController/py/BaseController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -229,7 +187,7 @@
       <workItem from="1591337852600" duration="6171000" />
       <workItem from="1591425669291" duration="1472000" />
       <workItem from="1591514031421" duration="15892000" />
-      <workItem from="1591594366879" duration="3190000" />
+      <workItem from="1591594366879" duration="7806000" />
     </task>
     <task id="LOCAL-00001" summary="修改跨域解决类">
       <created>1591425746183</created>
