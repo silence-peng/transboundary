@@ -71,8 +71,8 @@ public class BaggingController {
     }
     @RequestMapping("addBagging")
     public boolean addBagging(Bagging bagging, HttpSession session){
-        User admin = (User) session.getAttribute("admin");
-        bagging.setCreatePerson(admin.getUserName());
+//        User admin = (User) session.getAttribute("admin");
+//        bagging.setCreatePerson(admin.getUserName());
         bagging.setCreateDate(new Date());
         int result = baggingService.add(bagging);
         if (result>0){
@@ -94,9 +94,9 @@ public class BaggingController {
     }
     @RequestMapping("updBagging")
     public boolean updBagging(Bagging bagging, HttpSession session){
-        User admin = (User) session.getAttribute("admin");
+//        User admin = (User) session.getAttribute("admin");
+//        bagging.setAlterPerson(admin.getUserName());
         bagging.setAlterDate(new Date());
-        bagging.setAlterPerson(admin.getUserName());
         int result= baggingService.upd(bagging);
         if (result>0){
             return true;

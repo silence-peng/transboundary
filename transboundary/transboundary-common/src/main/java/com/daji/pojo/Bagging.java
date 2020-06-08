@@ -32,11 +32,14 @@ public class Bagging implements Serializable {
     private String singleBagWeight;
     private Integer clearanceId;
     private String destination;
+    private String englishDes;
+    private String chineseDes;
     private String desAirport;
     private String parcelExchangeOffice;
     private String affiliatedBranches;
     private Integer sharingMode;
     private String shareBranch;
+    private String baggingRule;
     @DateTimeFormat(pattern = "yyyy-MM-dd mm:hh:ss")
     @JsonFormat(pattern = "yyyy-MM-dd mm:hh:ss")
     private Date createDate;

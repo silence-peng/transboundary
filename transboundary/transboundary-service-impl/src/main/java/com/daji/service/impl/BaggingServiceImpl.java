@@ -20,6 +20,21 @@ public class BaggingServiceImpl implements BaggingService {
 
     @Override
     public List<Bagging> getData(Bagging bagging) {
+        if("".equals(bagging.getAffiliatedBranches())){
+            bagging.setAffiliatedBranches(null);
+        }
+        if("".equals(bagging.getStrategyBame())){
+            bagging.setStrategyBame(null);
+        }
+        if("".equals(bagging.getSendASite())){
+            bagging.setSendASite(null);
+        }
+        if("".equals(bagging.getShipRoute())){
+            bagging.setShipRoute(null);
+        }if("".equals(bagging.getIsStartUsing())){
+            bagging.setIsStartUsing(null);
+        }
+
         return baggingMapper.select(bagging);
     }
 

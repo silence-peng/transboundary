@@ -52,8 +52,8 @@ public class BoycottGoodsController {
     }
     @RequestMapping("addBoycottGoods")
     public boolean addBoycottGoods(BoycottGoods boycottGoods,HttpSession session){
-        User admin = (User) session.getAttribute("admin");
-        boycottGoods.setCreatePerson(admin.getUserName());
+//        User admin = (User) session.getAttribute("admin");
+//        boycottGoods.setCreatePerson(admin.getUserName());
         boycottGoods.setCreateDate(new Date());
         int result = boycottGoodsService.add(boycottGoods);
         if (result>0){
@@ -75,9 +75,9 @@ public class BoycottGoodsController {
     }
     @RequestMapping("updBoycottGoods")
     public boolean updBoycottGoods(BoycottGoods boycottGoods, HttpSession session){
-        User admin = (User) session.getAttribute("admin");
+//        User admin = (User) session.getAttribute("admin");
+//        boycottGoods.setAlterPerson(admin.getUserName());
         boycottGoods.setAlterDate(new Date());
-        boycottGoods.setAlterPerson(admin.getUserName());
         int result= boycottGoodsService.upd(boycottGoods);
         if (result>0){
             return true;
