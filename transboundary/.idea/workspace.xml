@@ -2,129 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4469130d-8d45-4987-8717-830a6ffcd6b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/transboundary-common/target/classes/com/daji/pojo/BoycottGoods.class" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-common/target/classes/com/daji/pojo/BoycottGoods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-common/target/classes/com/daji/pojo/TrackingNetworkClassification.class" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-common/target/classes/com/daji/pojo/TrackingNetworkClassification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-common/target/classes/com/daji/pojo/WaybillInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-common/target/classes/com/daji/pojo/WaybillInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-common/target/classes/com/daji/util/HttpClientUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-common/target/classes/com/daji/util/HttpClientUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/AccessoryInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/AgencyBasicInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/AgencyContactInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/AgencyIssueInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/AgencyPaymentInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/AgencyTypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/AllocationBranchService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/AllocationClientService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/AssignRouteService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/BaggingDistributionInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/BaggingManagementInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/BaggingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/BejobService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/BoycottGoodsInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/BoycottGoodsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/BranchBasicsInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/BranchTypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/BusinessTypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/CargoInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/CargoPolicyInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/CheckGoodsInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/ChildClearWarehouseInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/ChildOrdersInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/ChildTrackInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/ClearWarehouseInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/ClientTypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/ConractService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/CountryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/CustomerContactPersonService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/CustomerGroupService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/CustomerManagementService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/CustomerServiceInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/CustomsClearanceInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/DeptService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/DestinationManagementService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/DestinationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/DestinationTypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/DistributionUpperInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/EnglishDescriptionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/EnglishDescriptionTypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/EntrustOurCatalogueService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/FollowLogInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/GoodsShelvesInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/HandoverWaybillInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/ImportLogService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/ImportTemplateInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/InvoiceCashPledgeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/IssueStausService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/IssueTypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/JobRoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/LanguageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/MainLineTracksService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/MessageRecordInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/NoteService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/NoteTypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/NoteVariateService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/NumberVerificationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/OrderStateInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/OrderTypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/OutboxInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/OutboxService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/PackTypeInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/PackagingTypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/PayInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/PlaySingleInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/PortAfterIssueInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/PortBeforeIssueInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/PositionLevelService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/PositionManagementService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/PrintRecordInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/ProblemHandlingInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/ProblemLoginInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/ProductCustomerInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/ProductInStorageInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/RecipientsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/RoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/RouteTypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/ScanningSectionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/ScanningStateService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/SelfMotionOrderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/SendRandomService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/SenderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/SharingModeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/ShipmentRouteService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/SingleRecordInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/SinglelimportService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/SortingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/StatusAfterService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/TemplateLogInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/TemplateTypeInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/TotalWaybillInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/TrackInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/TrackingNetworkClassificationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/TrackingNetworkService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/TrajectoryMatchingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/TransferInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/TransportAllotInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/TransportInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/TwoSidesInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/UjnauthorizedNetworkService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/UpdateLogInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/UpdatePlateService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/UpperManagementInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/UseInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/VerigyTypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/WaybillAllocationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/WaybillAttachmentInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/WaybillAutomaticallyService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/WaybillChangesInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/WaybillDistributionInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/WaybillDocumentInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/WaybillInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/WaybillNumberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/WaybillPushInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/WaybillTrackingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/target/classes/com/daji/service/WaybillTypeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,8 +31,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="mavenHome" value="F:/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="F:\maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -176,7 +56,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/transboundary-web/src/main/java/com/daji" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/transboundary-service-impl/src/main/java/com/daji/service/impl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/transboundary-web/src/main/java/com/daji/web/baseController/cjh" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -195,12 +75,24 @@
       <recent name="com.daji.configuration" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\transboundary\transboundary\transboundary\transboundary-web\src\main\java\com\daji\web\baseController\cjh" />
       <recent name="F:\transboundary\transboundary\transboundary-service-impl\src\main\java\com\daji\service\impl" />
       <recent name="F:\transboundary\transboundary\transboundary-service\src\main\java\com\daji\service" />
       <recent name="F:\transboundary\transboundary\transboundary-dao\src\main\java\com\daji\mapper" />
       <recent name="F:\transboundary\transboundary\transboundary-common\src\main\java\com\daji\pojo" />
-      <recent name="E:\跨境\transboundary\transboundary-web\src\main\resources" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.TransboundaryWebApplication (1)">
     <configuration name="TranboundaryServiceImplApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -298,6 +190,7 @@
       <workItem from="1591514031421" duration="15892000" />
       <workItem from="1591594366879" duration="3190000" />
       <workItem from="1591603258468" duration="2330000" />
+      <workItem from="1591774660695" duration="135000" />
     </task>
     <task id="LOCAL-00001" summary="修改跨域解决类">
       <created>1591425746183</created>
