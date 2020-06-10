@@ -19,6 +19,5 @@ public class ShipmentRoute implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private Integer typeId;
-
     private String name;
 }

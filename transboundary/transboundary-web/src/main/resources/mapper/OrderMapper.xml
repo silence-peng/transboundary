@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.daji.mapper.OrderMapper">
+    <select id="getWayBillInfo" resultMap="WayBillObj">
+        select * from waybill_info where 1=1
+        <if test="orderDate!=null and orderDate!=''">
+            and cretedate >= #{orderDate}
+        </if>
+        <if test="cretedate!=null and cretedate!=''">
+            and cretedate &lt;= #{cretedate}
+        </if>
+        <if test="siteId!=null and siteId!='' and siteId!='0'">
+            and site_id=#{siteId}
+        </if>
+        <if test="clientId!=null and clientId!='' and clientId!='0'">
+            and client_id=#{clientId}
+        </if>
+        <if test="shipmentRace!=null and shipmentRace!='' and shipmentRace!='0'">
+            and shipment_race=#{shipmentRace}
+        </if>
+        <if test="courseRace!=null and  courseRace!='' and  courseRace!=0">
+            and  course_race=#{courseRace}
+        </if>
+        <if test="bourn!=null and  bourn!='' and  bourn!=0">
+            and  bourn=#{bourn}
+        </if>
+        <if test="orderStatus!=null and  orderStatus!='' and  orderStatus!='0'">
+            and  order_status=#{orderStatus}
+        </if>
+        <if test="dataSources!=null and  dataSources!='' and  dataSources!='0'">
+            and  data_sources=#{dataSources}
+        </if>
+        <if test="waybillNumber!=null and  waybillNumber!='' ">
+            and  waybill_number=#{waybillNumber}
+        </if>
+        <if test="trackingNumber!=null and trackingNumber!=''">
+            and  tracking_number=#{trackingNumber}
+        </if><if test="wayId!=null and wayId!=''">
+            and  way_id=#{wayId}
+        </if><if test="participationNumber!=null and participationNumber!=''">
+            and  participation_number=#{participationNumber}
+        </if>
+
+    </select>
+    <resultMap id="WayBillObj" type="WayBillInfo">
+        <id property="wayId" column="way_id"/>
+        <result property="orderStatus" column="order_status"/>
+        <result property="waybillNumber" column="waybill_number"/>
+        <result property="participationNumber" column="participation_number"/>
+        <result property="trackingNumber" column="tracking_number"/>
+        <result property="boycottStatus" column="boycott_status"/>
+        <result property="playSingleStatus" column="play_single_status"/>
+        <result property="orderNumberBag" column="order_number_bag"/>
+        <result property="cretedate" column="cretedate"/>
+        <result property="siteId" column="site_id"/>
+        <result property="clientId" column="client_id"/>
+        <result property="courseRace" column="course_race"/>
+        <result property="bourn" column="bourn"/>
+    </resultMap>
+</mapper>
