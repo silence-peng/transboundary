@@ -40,4 +40,5 @@ public class User implements Serializable {
     private Integer authorizedOutletsType;
     private Integer isSpeciallyAuthorize;
     private Integer loginCount;
+    private String pwd;
 }

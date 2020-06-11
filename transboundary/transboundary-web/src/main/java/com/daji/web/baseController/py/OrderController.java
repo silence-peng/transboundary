@@ -7,6 +7,7 @@ import com.github.pagehelper.PageInfo;
 import net.sf.jsqlparser.statement.select.Limit;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.text.DateFormat;
@@ -102,6 +103,16 @@ public class OrderController {
         }
         PageInfo<WaybillInfo> pageInfo =waybillInfoService.getWayBillInfo(page, limit,waybillInfo,type,number);
         return new ResultMap<List<WaybillInfo>>("",pageInfo.getList(),0,pageInfo.getTotal());
+    }
+    @RequestMapping("/order/updWayBillInfo")
+    public boolean updWayBillInfo(@RequestParam(value ="codes") List<WaybillInfo> list){
+        System.out.println(list);
+        int i=0;
+        for (WaybillInfo w : list) {
+            w.setOrderStatus(19);
+            i+=waybillInfoService.upd(w);
+        }
+        return i>0;
     }
 
 }

@@ -45,7 +45,7 @@ public class WaybillInfoServiceImpl implements WaybillInfoService {
 
     @Override
     public Integer upd(WaybillInfo waybillInfo) {
-        return waybillInfoMapper.updateByPrimaryKey(waybillInfo);
+        return waybillInfoMapper.updateByPrimaryKeySelective(waybillInfo);
     }
 
     @Override

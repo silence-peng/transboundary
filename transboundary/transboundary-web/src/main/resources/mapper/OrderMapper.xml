@@ -5,10 +5,10 @@
 <mapper namespace="com.daji.mapper.OrderMapper">
     <select id="getWayBillInfo" resultMap="WayBillObj">
         select * from waybill_info where 1=1
-        <if test="orderDate!=null and orderDate!=''">
+        <if test="orderDate!=null ">
             and cretedate >= #{orderDate}
         </if>
-        <if test="cretedate!=null and cretedate!=''">
+        <if test="cretedate!=null ">
             and cretedate &lt;= #{cretedate}
         </if>
         <if test="siteId!=null and siteId!='' and siteId!='0'">
