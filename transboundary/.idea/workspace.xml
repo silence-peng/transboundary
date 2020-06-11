@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4469130d-8d45-4987-8717-830a6ffcd6b3" name="Default Changelist" comment="修改">
+    </list>
       <change afterPath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/configuration/RedisConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/util/RedisUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
