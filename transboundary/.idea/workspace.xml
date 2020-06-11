@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4469130d-8d45-4987-8717-830a6ffcd6b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/transboundary-web/src/main/java/com/daji/web/baseController/py/AbnormalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="4469130d-8d45-4987-8717-830a6ffcd6b3" name="Default Changelist" comment="修改">
+      <change afterPath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/configuration/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/util/RedisUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/pojo/CustomerManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/pojo/CustomerManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/pojo/PortBeforeIssueInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/pojo/PortBeforeIssueInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service-impl/src/main/java/com/daji/service/impl/WaybillInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-service-impl/src/main/java/com/daji/service/impl/WaybillInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-web/src/main/java/com/daji/web/baseController/py/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-web/src/main/java/com/daji/web/baseController/py/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-web/src/main/resources/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-web/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transboundary-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transboundary-common/target/classes/com/daji/pojo/CustomerManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-common/target/classes/com/daji/pojo/CustomerManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transboundary-common/target/classes/com/daji/pojo/PortBeforeIssueInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-common/target/classes/com/daji/pojo/PortBeforeIssueInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transboundary-common/target/classes/com/daji/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-common/target/classes/com/daji/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transboundary-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transboundary-web/src/main/java/com/daji/web/baseController/SysController.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-web/src/main/java/com/daji/web/baseController/SysController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transboundary-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-web/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +41,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
+        <option name="mavenHome" value="D:/MAVEN/apache-maven-3.6.1" />
         <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -77,12 +78,13 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.54847395" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.daji.pojo" />
       <recent name="com.daji.configuration" />
+      <recent name="com.daji.util" />
+      <recent name="com.daji.pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\transboundary\transboundary\transboundary-service-impl\src\main\java\com\daji\service\impl" />
@@ -241,7 +243,9 @@
       <workItem from="1591774777898" duration="1488000" />
       <workItem from="1591776325970" duration="5544000" />
       <workItem from="1591837004558" duration="1545000" />
-      <workItem from="1591855112521" duration="5848000" />
+      <workItem from="1591855112521" duration="10832000" />
+      <workItem from="1591867249841" duration="1728000" />
+      <workItem from="1591879272549" duration="1613000" />
     </task>
     <task id="LOCAL-00001" summary="修改跨域解决类">
       <created>1591425746183</created>
@@ -257,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591776129787</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改">
+      <created>1591862101906</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591862101907</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

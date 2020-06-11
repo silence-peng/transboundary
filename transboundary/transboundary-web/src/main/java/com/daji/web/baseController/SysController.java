@@ -2,11 +2,17 @@ package com.daji.web.baseController;
 
 import com.daji.pojo.User;
 import com.daji.service.UserService;
+
+import com.daji.util.RedisUtil;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CookieValue;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.servlet.http.HttpSession;
+import javax.annotation.Resource;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletResponse;
+
 
 
 @RestController
@@ -14,21 +20,20 @@ import javax.servlet.http.HttpSession;
 public class SysController {
     @Autowired
     private UserService userService;
+    @Resource
+    private RedisUtil redisUtil;
     @RequestMapping("login")
-    public Object login(User user,HttpSession session){
+    public Object login(User user, HttpServletResponse response){
+
         User user1=userService.getOne(user);
         if (user1!=null){
-            session.setAttribute("user", user1);
-            return true;
+            return  redisUtil.set("user",user1);
         }
         return false;
     }
-    @RequestMapping("loginOut")
-    public void loginOut(HttpSession session){
-        session.removeAttribute("user");
-    }
+
     @RequestMapping("getUserInfo")
-    public Object getUserInfo(HttpSession session){
-        return session.getAttribute("user");
+    public Object getUserInfo(){
+        return redisUtil.get("user");
     }
 }
