@@ -4,7 +4,7 @@ public class ResultMap<T> {
     private String msg;
     private T data;
     private int code;
-    private int count;
+    private long count;
 
     public String getMsg() {
         return msg;
@@ -30,7 +30,7 @@ public class ResultMap<T> {
         this.code = code;
     }
 
-    public int getCount() {
+    public long getCount() {
         return count;
     }
 
@@ -38,7 +38,7 @@ public class ResultMap<T> {
         this.count = count;
     }
 
-    public ResultMap(String msg, T data, int code, int count) {
+    public ResultMap(String msg, T data, int code, long count) {
         this.msg = msg;
         this.data = data;
         this.code = code;

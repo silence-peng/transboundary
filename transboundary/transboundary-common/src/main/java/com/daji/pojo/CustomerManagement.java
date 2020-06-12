@@ -44,4 +44,5 @@ public class CustomerManagement implements Serializable {
     @JsonFormat(pattern = "yyyy-MM-dd mm:hh:ss")
     private Date lastTime;
     private String paymentAccount;
+    private String pwd;
 }

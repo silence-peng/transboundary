@@ -52,6 +52,12 @@ public class BaseController {
         return customerManagementService.getAll();
     }
 
+    @RequestMapping("/order/loadCustomerManagementList")
+    public ResultMap<List<CustomerManagement>> loadCustomerManagementList( ){
+        List<CustomerManagement> list=customerManagementService.getAll();
+        return new ResultMap<List<CustomerManagement>>("",list,0,list.size());
+    }
+
     @RequestMapping("/base/loadTemplateInfo")
     public List<ImportTemplateInfo> loadTemplateInfo( ){
         return importTemplateInfoService.getAll();

@@ -18,5 +18,5 @@ public class PortBeforeIssueInfo implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String type_name;
+    private String typeName;
 }
