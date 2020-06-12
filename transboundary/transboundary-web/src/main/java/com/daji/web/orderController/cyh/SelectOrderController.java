@@ -39,7 +39,8 @@ public class SelectOrderController {
     private CustomsClearanceInfoService customsClearanceInfoService;
     @Autowired
     private SelectOrderService selectOrderService;
-
+    @Autowired
+    private CountryService countryService;
     @RequestMapping("/selectOrderAll")
     public Object selectOrderAll(Integer limit ,Integer page){
         PageInfo<SelectOrder> pageInfo = selectOrderService.selectAll((page-1)*limit,limit);
@@ -162,5 +163,14 @@ public class SelectOrderController {
         return list;
     }
 
+    /**
+     * 币别
+     * @return
+     */
+    @RequestMapping("/selectCountryAll")
+    public Object selectCountryAll(){
+        List<Country> country=countryService.getAll();
+        return  country;
+    }
 
 }

@@ -17,5 +17,5 @@ public class CargoTypeInfo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String cargoType;
+        private String cargoType;
 }
