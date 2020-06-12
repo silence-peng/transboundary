@@ -41,8 +41,8 @@ public class SelectOrderController {
     private SelectOrderService selectOrderService;
 
     @RequestMapping("/selectOrderAll")
-    public Object selectOrderAll(Integer limit ,Integer page){
-        PageInfo<SelectOrder> pageInfo = selectOrderService.selectAll((page-1)*limit,limit);
+    public Object selectOrderAll(Integer limit ,Integer page,SelectOrderPatementer selectOrderPatementer){
+        PageInfo<SelectOrder> pageInfo = selectOrderService.selectAll((page-1)*limit,limit,selectOrderPatementer);
         List<SelectOrder> list = pageInfo.getList();
         Integer size = Integer.parseInt(String.valueOf(pageInfo.getTotal()));
         ResultMap<List<SelectOrder>> resultMap = new ResultMap<List<SelectOrder>>("", list,0,size);
