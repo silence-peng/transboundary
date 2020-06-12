@@ -9,12 +9,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="transboundary-service-impl" />
         <module name="transboundarycommon" />
+        <module name="transboundary-service" />
         <module name="transboundary-common" />
         <module name="transboundarydao" />
-        <module name="transboundaryservice" />
         <module name="transboundary-dao" />
         <module name="transboundary-web" />
-        <module name="transboundary-service" />
+        <module name="transboundaryservice" />
       </profile>
     </annotationProcessing>
   </component>
