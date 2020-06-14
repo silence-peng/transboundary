@@ -14,6 +14,7 @@
       <change beforePath="$PROJECT_DIR$/transboundary-web/src/main/java/com/daji/web/orderController/cyh/TracingInquiryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-web/src/main/java/com/daji/web/orderController/cyh/TracingInquiryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/transboundary-web/src/main/resources/mapper/cyh/SelectOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-web/src/main/resources/mapper/cyh/SelectOrderMapper.xml" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,8 +41,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="mavenHome" value="F:/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="F:\maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -65,7 +66,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/transboundary-web/src/main/java/com/daji" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/transboundary-service-impl/src/main/java/com/daji/service/impl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/transboundary-web/src/main/java/com/daji/web/baseController/cjh" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -84,12 +85,24 @@
       <recent name="com.daji.configuration" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\transboundary\transboundary\transboundary\transboundary-web\src\main\java\com\daji\web\baseController\cjh" />
       <recent name="F:\transboundary\transboundary\transboundary-service-impl\src\main\java\com\daji\service\impl" />
       <recent name="F:\transboundary\transboundary\transboundary-service\src\main\java\com\daji\service" />
       <recent name="F:\transboundary\transboundary\transboundary-dao\src\main\java\com\daji\mapper" />
       <recent name="F:\transboundary\transboundary\transboundary-common\src\main\java\com\daji\pojo" />
-      <recent name="E:\跨境\transboundary\transboundary-web\src\main\resources" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.TransboundaryWebApplication (1)">
     <configuration name="TranboundaryServiceImplApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -186,6 +199,8 @@
       <workItem from="1591425669291" duration="1472000" />
       <workItem from="1591514031421" duration="15892000" />
       <workItem from="1591594366879" duration="3190000" />
+      <workItem from="1591603258468" duration="2330000" />
+      <workItem from="1591774660695" duration="135000" />
       <workItem from="1591603258468" duration="6013000" />
       <workItem from="1591682794261" duration="10155000" />
       <workItem from="1591768799448" duration="2717000" />

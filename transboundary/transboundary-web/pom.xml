@@ -54,6 +54,8 @@
             <groupId>com.daji</groupId>
             <artifactId>transboundary-service</artifactId>
         </dependency>
+
+
     </dependencies>
 
 

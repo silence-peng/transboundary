@@ -1,4 +1,4 @@
-package com.daji.controller.cjh;
+package com.daji.web.baseController.cjh;
 
 import com.daji.pojo.DestinationManagement;
 import com.daji.service.DestinationManagementService;
@@ -21,6 +21,13 @@ public class DestinationManagementController {
         List<DestinationManagement> destinationManagements =destinationManagementService.getData(destinationManagement);
         return new ResultMap<List<DestinationManagement>>("",destinationManagements,0,destinationManagements.size());
     }
+
+    @RequestMapping("getDestinationAll")
+    public ResultMap<List<DestinationManagement>> getDestinationAll(DestinationManagement destinationManagement){
+        List<DestinationManagement> destinationManagements =destinationManagementService.getAll();
+        return new ResultMap<List<DestinationManagement>>("",destinationManagements,0,destinationManagements.size());
+    }
+
     @RequestMapping("adddestination")
     public boolean add(DestinationManagement destinationManagement){
         int result=destinationManagementService.add(destinationManagement);
