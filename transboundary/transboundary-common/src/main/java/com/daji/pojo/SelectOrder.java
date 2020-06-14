@@ -12,6 +12,17 @@ import lombok.experimental.Accessors;
 public class SelectOrder {
     private String waybillNumber;
     private String participationNumber;
+    private String productNumber;
+        private String orderDate;
+        private float declaredValue;
+        private float payment;
+        private String bulk;
+        private Integer quantity;
+        private float shipmentWeight;
+        private float shippingWeight;
+        private String deliveryNote;
+        private String receiptNote;
+    private String shipmentId;
     private String trackingNumber;
     private String sendDate;
     private String branchName;

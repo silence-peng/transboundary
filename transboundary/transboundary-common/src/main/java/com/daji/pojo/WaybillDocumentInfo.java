@@ -29,4 +29,5 @@ public class WaybillDocumentInfo implements Serializable {
     @JsonFormat(pattern = "yyyy-MM-dd mm:hh:ss")
     private Date createTime;
     private String creator;
+    private String waybillNumber;
 }

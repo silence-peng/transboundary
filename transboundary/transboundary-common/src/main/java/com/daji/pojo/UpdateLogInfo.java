@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 import org.springframework.format.annotation.DateTimeFormat;
 
+import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -27,6 +28,8 @@ public class UpdateLogInfo implements Serializable {
     private String waybillNumber;
     private String functionality;
     private String updateType;
+    @Column(name = "`describe`")
     private String describe;
     private String operator;
+    private String branch;
 }

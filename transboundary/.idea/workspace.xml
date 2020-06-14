@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4469130d-8d45-4987-8717-830a6ffcd6b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/pojo/SelectOrderPatementer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transboundary-web/src/main/java/com/daji/web/orderController/cyh/TracingInquiryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-dao/src/main/java/com/daji/mapper/SelectOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-dao/src/main/java/com/daji/mapper/SelectOrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service-impl/src/main/java/com/daji/service/impl/SelectOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-service-impl/src/main/java/com/daji/service/impl/SelectOrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-service/src/main/java/com/daji/service/SelectOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-service/src/main/java/com/daji/service/SelectOrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-web/src/main/java/com/daji/web/orderController/cyh/SelectOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-web/src/main/java/com/daji/web/orderController/cyh/SelectOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transboundary-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/pojo/ChildTrackInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/pojo/ChildTrackInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/pojo/SelectOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/pojo/SelectOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/pojo/UpdateLogInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/pojo/UpdateLogInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/pojo/WaybillDocumentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-common/src/main/java/com/daji/pojo/WaybillDocumentInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transboundary-service-impl/src/main/java/com/daji/service/impl/ChildTrackInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-service-impl/src/main/java/com/daji/service/impl/ChildTrackInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transboundary-service-impl/src/main/java/com/daji/service/impl/TwoSidesInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-service-impl/src/main/java/com/daji/service/impl/TwoSidesInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transboundary-service/src/main/java/com/daji/service/TrackInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-service/src/main/java/com/daji/service/TrackInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transboundary-web/src/main/java/com/daji/web/orderController/cyh/TracingInquiryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-web/src/main/java/com/daji/web/orderController/cyh/TracingInquiryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/transboundary-web/src/main/resources/mapper/cyh/SelectOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/transboundary-web/src/main/resources/mapper/cyh/SelectOrderMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,7 +190,8 @@
       <workItem from="1591682794261" duration="10155000" />
       <workItem from="1591768799448" duration="2717000" />
       <workItem from="1591856265315" duration="2459000" />
-      <workItem from="1591941267234" duration="5488000" />
+      <workItem from="1591941267234" duration="8232000" />
+      <workItem from="1592021240374" duration="17145000" />
     </task>
     <task id="LOCAL-00001" summary="修改跨域解决类">
       <created>1591425746183</created>
@@ -211,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591606152295</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="cyh">
+      <created>1591951688459</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591951688459</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,50 +247,66 @@
     <option name="LAST_COMMIT_MESSAGE" value="cyh" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1591949527774">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1592039697298">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1591949527774" />
-    <state x="178" y="0" key="CommitChangelistDialog2" timestamp="1591606148402">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1592039697298" />
+    <state x="178" y="0" key="CommitChangelistDialog2" timestamp="1591951680661">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="178" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591606148402" />
+    <state x="178" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1591951680661" />
     <state x="442" y="113" key="FileChooserDialogImpl" timestamp="1591603342854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="442" y="113" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591603342854" />
-    <state width="1323" height="233" key="GridCell.Tab.0.bottom" timestamp="1591714077026">
+    <state width="1323" height="15" key="GridCell.Tab.0.bottom" timestamp="1592042281581">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="233" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591714077026" />
-    <state width="1323" height="233" key="GridCell.Tab.0.center" timestamp="1591714077026">
+    <state width="1323" height="15" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592042281581" />
+    <state width="1323" height="15" key="GridCell.Tab.0.center" timestamp="1592042281581">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="233" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591714077026" />
-    <state width="1323" height="233" key="GridCell.Tab.0.left" timestamp="1591714077026">
+    <state width="1323" height="15" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592042281581" />
+    <state width="1323" height="15" key="GridCell.Tab.0.left" timestamp="1592042281581">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="233" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591714077026" />
-    <state width="1323" height="233" key="GridCell.Tab.0.right" timestamp="1591714077026">
+    <state width="1323" height="15" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592042281581" />
+    <state width="1323" height="15" key="GridCell.Tab.0.right" timestamp="1592042281581">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="233" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591714077026" />
-    <state width="1323" height="233" key="GridCell.Tab.1.bottom" timestamp="1591714077020">
+    <state width="1323" height="15" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592042281581" />
+    <state width="1323" height="15" key="GridCell.Tab.1.bottom" timestamp="1592042281581">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="233" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591714077020" />
-    <state width="1323" height="233" key="GridCell.Tab.1.center" timestamp="1591714077020">
+    <state width="1323" height="15" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592042281581" />
+    <state width="1323" height="15" key="GridCell.Tab.1.center" timestamp="1592042281581">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="233" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1591714077020" />
-    <state width="1323" height="233" key="GridCell.Tab.1.left" timestamp="1591714077020">
+    <state width="1323" height="15" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1592042281581" />
+    <state width="1323" height="15" key="GridCell.Tab.1.left" timestamp="1592042281581">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="233" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1591714077020" />
-    <state width="1323" height="233" key="GridCell.Tab.1.right" timestamp="1591714077020">
+    <state width="1323" height="15" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1592042281581" />
+    <state width="1323" height="15" key="GridCell.Tab.1.right" timestamp="1592042281581">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="233" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1591714077020" />
+    <state width="1323" height="15" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1592042281581" />
+    <state width="1323" height="110" key="GridCell.Tab.2.bottom" timestamp="1592028057775">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="110" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592028057775" />
+    <state width="1323" height="110" key="GridCell.Tab.2.center" timestamp="1592028057774">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="110" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1592028057774" />
+    <state width="1323" height="110" key="GridCell.Tab.2.left" timestamp="1592028057774">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="110" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1592028057774" />
+    <state width="1323" height="110" key="GridCell.Tab.2.right" timestamp="1592028057775">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="110" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1592028057775" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1591603344672">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -289,9 +315,20 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591606161376" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591857166894">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1592035954909">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1591857166894" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1592035954909" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/transboundary-service-impl/src/main/java/com/daji/service/impl/SelectOrderServiceImpl.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

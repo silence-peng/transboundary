@@ -24,7 +24,7 @@ public class TwoSidesInfoServiceImpl implements TwoSidesInfoService {
 
     @Override
     public TwoSidesInfo getOne(TwoSidesInfo twoSidesInfo) {
-        return twoSidesInfoMapper.selectByPrimaryKey(twoSidesInfo);
+        return twoSidesInfoMapper.selectOne(twoSidesInfo);
     }
 
     @Override
