@@ -136,10 +136,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="764" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592114832897" />
-    <state x="559" y="112" key="CommitChangelistDialog2" timestamp="1591943084480">
+    <state x="559" y="112" key="CommitChangelistDialog2" timestamp="1592201898806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="559" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591943084480" />
+    <state x="559" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592201898806" />
     <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1592200903136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -180,10 +180,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="460" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591943261118" />
-    <state x="751" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591943126346">
+    <state x="726" y="234" key="VCS.ChangeListViewerDialog" timestamp="1592201945647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="751" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591943126346" />
+    <state x="726" y="234" key="VCS.ChangeListViewerDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592201945647" />
+    <state x="751" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592201916130">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="751" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592201916130" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1592108387609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
