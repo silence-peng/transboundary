@@ -32,8 +32,6 @@ public class User implements Serializable {
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     @JsonFormat(pattern = "yyyy-MM-dd")
     private Date alterDate;
-
-
     private Integer isStartUsing;
     private Integer isAdmin;
     private Integer deptno;
@@ -41,4 +39,5 @@ public class User implements Serializable {
     private Integer isSpeciallyAuthorize;
     private Integer loginCount;
     private String pwd;
+    private String affiliatedBranches;
 }

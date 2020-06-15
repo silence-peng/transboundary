@@ -1,4 +1,4 @@
-package com.daji.web.baseController.zzw;
+package com.daji.web.orderController.zzw;
 
 import com.daji.pojo.*;
 import com.daji.service.*;
@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("fastShipping")
-public class fastShippingController {
+public class FastShippingController {
     @Autowired
     private WaybillInfoService waybillInfoService;
     @Autowired

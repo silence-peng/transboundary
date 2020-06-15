@@ -22,7 +22,6 @@ public class UpdatePlate implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private Integer isStartUsing;
-    private Integer deliveryBranch;
     private String affiliatedBranches;
     private Integer sharingMode;
     private String strategyCoding;

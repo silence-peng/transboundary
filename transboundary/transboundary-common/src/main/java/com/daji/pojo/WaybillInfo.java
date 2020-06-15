@@ -24,22 +24,22 @@ public class WaybillInfo implements Serializable {
     private String productNumber;
     private String shipmentId;
     private String siteId;
-    @DateTimeFormat(pattern = "yyyy-MM-dd mm:hh:ss")
-    @JsonFormat(pattern = "yyyy-MM-dd mm:hh:ss")
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date sendDate;
     private String clientId;
     private String courseRace;
     private String bourn;
     private String shipmentRace;
-    @DateTimeFormat(pattern = "yyyy-MM-dd mm:hh:ss")
-    @JsonFormat(pattern = "yyyy-MM-dd mm:hh:ss")
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date orderDate;
-    private Serializable takePart;
+    private String takePart;
     private Integer orderStatus;
     private Integer dataSources;
     private String createName;
-    @DateTimeFormat(pattern = "yyyy-MM-dd mm:hh:ss")
-    @JsonFormat(pattern = "yyyy-MM-dd mm:hh:ss")
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date cretedate;
     private Integer faraway;
     private String countriesCode;

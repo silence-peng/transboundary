@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.daji.mapper.WaybillInfoMapper">
+    <select id="getWaybill" resultType="WaybillInfo">
+        SELECT ori.`state` serviceType,w.`way_id` wayId,w.`waybill_number` waybillNumber,w.`participation_number` participationNumber,w.`tracking_number` trackingNumber,
+        b.`order_number_bag` takePart,w.`send_date` sendDate,c.`name` clientId,a.`name` courseRace,
+        ci.`cargo_type` shipmentRace,co.`country_name` bourn,w.`cretedate` cretedate,w.`create_name` createName,ci.`number_cases` dataSources FROM
+        waybill_info w,customer_management c,bagging_distribution_info b,assign_route a,cargo_info ci,country co,order_state_info ori
+        WHERE w.client_id=c.code AND w.`waybill_number`=b.`waybill_number` AND w.`course_race`=a.`id` AND
+        w.`waybill_number`=ci.`waybill_number` AND co.`country_coding`= w.`bourn` AND w.`order_status`=ori.`id`
+        <if test="waybillNumber!='' and waybillNumber!=null">
+            AND w.`waybill_number` like concat('%',#{waybillNumber},'%')
+        </if>
+        <if test="sendDate!=null and cretedate!=null">
+            AND w.`send_date`>=#{sendDate} AND w.`send_date` &lt;= #{cretedate}
+        </if>
+        <if test="clientId!='' and clientId!=null">
+            AND c.`name` like concat('%',#{clientId},'%')
+        </if>
+        <if test="courseRace!='' and courseRace!=null">
+            AND a.`name` like concat('%',#{courseRace},'%')
+        </if>
+        <if test="orderStatus!=0 and orderStatus!=null">
+            AND w.`order_status`=#{orderStatus}
+        </if>
+    </select>
+</mapper>
