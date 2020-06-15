@@ -5,6 +5,7 @@ import com.daji.pojo.ChildTrackInfo;
 import com.daji.service.ChildTrackInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
 
@@ -19,7 +20,7 @@ public class ChildTrackInfoServiceImpl implements ChildTrackInfoService {
 
     @Override
     public List<ChildTrackInfo> getData(ChildTrackInfo childTrackInfo) {
-        return childTrackInfoMapper.select(childTrackInfo);
+         return childTrackInfoMapper.select(childTrackInfo);
     }
 
     @Override

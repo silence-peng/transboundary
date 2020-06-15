@@ -25,8 +25,8 @@ public class ChildTrackInfo implements Serializable {
     @DateTimeFormat(pattern = "yyyy-MM-dd mm:hh:ss")
     @JsonFormat(pattern = "yyyy-MM-dd mm:hh:ss")
     private Date latestTime;
-    @DateTimeFormat(pattern = "yyyy-MM-dd mm:hh:ss")
-    @JsonFormat(pattern = "yyyy-MM-dd mm:hh:ss")
-    private Date latestLocation;
+    private String latestLocation;
     private String latestTrack;
+    private String waybillNumber;
+    private String trackRecord;
 }
